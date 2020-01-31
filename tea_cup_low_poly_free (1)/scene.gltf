@@ -1,0 +1,223 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 454,
+      "max": [
+        1.1000000238418579,
+        1.1000000238418579,
+        1.1459499597549438
+      ],
+      "min": [
+        -1.1000000238418579,
+        -1.7057000398635864,
+        -0.97630000114440918
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5448,
+      "componentType": 5126,
+      "count": 454,
+      "max": [
+        0.99987322092056274,
+        0.99987322092056274,
+        0.98231053352355957
+      ],
+      "min": [
+        -0.99987322092056274,
+        -0.99987417459487915,
+        -0.9990960955619812
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 2904,
+      "max": [
+        453
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Majux (https://sketchfab.com/Majux)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/ed42b058fda84754b4a4ce96b17bc91c",
+      "title": "Tea Cup Low Poly Free"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11616,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10896,
+      "byteOffset": 11616,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 22512,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.49279470782377588,
+            0.37011979792261313,
+            0.27747922205813447,
+            1
+          ],
+          "glossinessFactor": 0.68464176830000001,
+          "specularFactor": [
+            0.026105182899999999,
+            0.026105182899999999,
+            0.026105182899999999
+          ]
+        }
+      },
+      "name": "Cup_color"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Tea Cup_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.80000000000000004,
+        0,
+        0,
+        0,
+        0.80000000000000004,
+        1
+      ],
+      "name": "Tea Cup"
+    },
+    {
+      "mesh": 0,
+      "name": "Tea Cup_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.91014000000000006,
+        -0.35311000000000003,
+        -0.21668000000000001,
+        0,
+        0.21188000000000001,
+        0.84617000000000009,
+        -0.48899000000000004,
+        0,
+        0.35601000000000005,
+        0.39914000000000005,
+        0.84495000000000009,
+        0,
+        3.7004700000000001,
+        5.2759,
+        7.0518400000000003,
+        1
+      ],
+      "name": "Sun"
+    },
+    {
+      "name": "Sun"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
